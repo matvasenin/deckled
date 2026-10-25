@@ -1,0 +1,22 @@
+{
+  "name": "@matvasenin/deckled",
+  "description": "Native CSS. Lightweight by design. Flexible when needed.",
+  "type": "module",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch"
+  },
+  "devDependencies": {
+    "@repo/config-typescript": "workspace:",
+    "tsdown": "^0.23.1",
+    "typescript": "^7.0.2"
+  }
+}
