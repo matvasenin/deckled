@@ -4,10 +4,11 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "check-types": "turbo run check-types"
+    "lint": "biome check .",
+    "lint:fix": "biome check . --write"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.6.3",
     "turbo": "^2.11.10",
     "typescript": "7.0.2"
   },

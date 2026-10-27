@@ -1,0 +1,17 @@
+{
+  "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "preset": "recommended"
+    }
+  },
+  "formatter": {
+    "lineWidth": 120,
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "files": {
+    "includes": ["**", "!!pnpm-lock.yaml", "!!**/node_modules", "!!**/dist"]
+  }
+}
