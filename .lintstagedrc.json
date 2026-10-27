@@ -1,0 +1,4 @@
+{
+  "$schema": "https://www.schemastore.org/lintstagedrc.schema.json",
+  "*": "biome check . --write"
+}
