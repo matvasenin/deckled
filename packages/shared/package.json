@@ -17,6 +17,6 @@
   "devDependencies": {
     "@repo/config-typescript": "workspace:",
     "tsdown": "^0.23.1",
-    "typescript": "^7.0.2"
+    "typescript": "catalog:"
   }
 }
