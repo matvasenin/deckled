@@ -1,0 +1,9 @@
+{
+  "extends": "@repo/config-typescript/base",
+  "include": ["src", ".storybook"],
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "rootDir": "src",
+    "outDir": "dist"
+  }
+}

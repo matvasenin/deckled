@@ -1,0 +1,20 @@
+{
+  "name": "@repo/storybook",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev -p 6006"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@matvasenin/deckled": "workspace:",
+    "@repo/config-typescript": "workspace:",
+    "@storybook/addon-a11y": "^10.6.4",
+    "@storybook/html-vite": "^10.6.4",
+    "@types/node": "catalog:",
+    "storybook": "^10.6.4",
+    "typescript": "catalog:",
+    "vite": "catalog:"
+  }
+}
